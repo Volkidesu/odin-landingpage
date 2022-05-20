@@ -4,28 +4,27 @@ html, body {
     
 }
 
-header {
+header,
+footer {
     display: flex;
     margin: 0px 150px 0px 150px;
     padding: 20px 200px 20px 200px;
-    justify-content: space-between;
-    align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    align-items: center;
+}
+
+header {
+    
+    justify-content: space-between;
     font-size: 24px;
-    flex-shrink: 0;
 
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     font-size: 18px;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    margin: 0px 150px 0px 150px;
-    padding: 50px 200px 20px 200px;
+    justify-content: center;
 
 }
 
@@ -37,11 +36,7 @@ p {
     max-width: fit-content;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    
-}
+
 
 button {
     max-width: 100px;
@@ -67,13 +62,14 @@ button {
 
 .content {
     display: flex;
+    flex: 1 0 auto;
     background-color: #1F2937;
     color: #F9FAF8;
     margin: 0px 150px 0px 150px;
     padding: 50px 200px 50px 200px;
     justify-content: space-between;
     align-items: center;
-    flex-shrink: 0;
+    
 
 }
 
