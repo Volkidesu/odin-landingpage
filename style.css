@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
 }
 
 html, body {
@@ -22,16 +23,17 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
 .header-section {
-    margin: 0 150px;
     padding: 16px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 32px;
 }
 
 .header-section > .logo {
@@ -55,7 +57,7 @@ header {
     gap: 32px;
     flex-wrap: wrap;
     padding: 48px 0px;
-    margin: 0 150px;
+    
     
 }
 
